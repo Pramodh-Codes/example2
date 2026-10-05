@@ -12,6 +12,7 @@ pipeline {
       steps{
         echo 'building'
     } 
+  }
   post{
     success{
       echo 'pipeline completed'
